@@ -1,5 +1,9 @@
 ## Habitica Tracker
 
+> I was getting bored, so I vibe-coded a dashboard app to track my Habitica Dailies.
+> Used model: GPT5.1 (Looks like id did a good job!)
+> If you like it, give it a star ⭐️
+
 Habitica Tracker is a small React + TypeScript app that helps you visualize and track your Habitica **Dailies** outside the main Habitica UI.
 
 <p align="center">
