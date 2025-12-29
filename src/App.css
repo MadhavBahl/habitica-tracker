@@ -3,7 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3rem 1.5rem;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
   background: radial-gradient(circle at top left, #18181b, #020617 55%, #0b1220);
   color: #e5e7eb;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text',
@@ -37,7 +38,8 @@
   padding: 0;
   margin: 1.2rem 0 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  /* At most three cards per row on wide screens, but let the row expand */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 0.9rem;
 }
 
