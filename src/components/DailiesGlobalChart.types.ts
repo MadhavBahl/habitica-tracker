@@ -10,7 +10,7 @@ export type DailiesGlobalChartProps = {
   series: GlobalSeriesPoint[];
 };
 
-export type GlobalHistoryEntry = { date: string };
+export type GlobalHistoryEntry = { date: number };
 
 export function buildGlobalSeries(
   fromHistory: GlobalHistoryEntry[][]
